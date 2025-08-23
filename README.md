@@ -2,7 +2,7 @@
 
 # 🚀 Project Ideas  
 
-✨ A curated place to share, discuss, and improve new project ideas ✨  
+✨ Ideas & projects I want to turn into reality ✨  
 
 ![GitHub issues](https://img.shields.io/github/issues/yogendra-08/ideas?style=for-the-badge&color=blue)
 ![GitHub forks](https://img.shields.io/github/forks/yogendra-08/ideas?style=for-the-badge&color=yellow)
