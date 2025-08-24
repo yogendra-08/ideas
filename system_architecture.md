@@ -88,6 +88,99 @@ NGOs & governments fighting misinformation.
 Your Name – Backend & AI Models
 
 
+---
+
+## 📌 `DOCS.md`  
+
+```markdown
+# 📑 Project Documentation – Fake News & Deepfake Detection
+
+## 1️⃣ Introduction
+Misinformation and deepfakes pose a huge risk in digital platforms.  
+This project provides a solution with **AI-powered news verification + media authentication**.
+
+---
+
+## 2️⃣ Problem Statement
+- Fake news spreads rapidly on social media.  
+- Deepfakes are hard to detect with human eyes.  
+- Lack of accessible, real-time verification tools for users.  
+
+---
+
+## 3️⃣ Proposed Solution
+- **AI + APIs** for real-time detection.  
+- **Browser extension** for instant fact-checks.  
+- **Dashboard** for managing history and detailed reports.  
+- **Reliability Score** to guide users on credibility.  
+
+---
+
+## 4️⃣ System Workflow
+1. User inputs news link / text / image / video.  
+2. System analyzes using:  
+   - **NLP model** → fake news text classification.  
+   - **CV model** → deepfake detection.  
+   - **Fact-check APIs** → cross-verification.  
+3. A combined **credibility engine** produces a **score + explanation**.  
+4. Results shown in **browser extension + dashboard**.  
+
+---
+
+## 5️⃣ Reliability Score Algorithm
+- Text credibility (NLP confidence).  
+- Source trust level (fact-check APIs).  
+- Media authenticity (deepfake probability).  
+- Historical analysis of similar content.  
+
+Scoring Range:  
+- 85–100 → Trusted  
+- 60–84 → Partially Reliable  
+- 0–59 → Likely Fake  
+
+---
+
+## 6️⃣ System Architecture Diagram
+![Architecture](docs/architecture.png)
+
+---
+
+## 7️⃣ Tech Stack Details
+- **Backend** → Flask/FastAPI (Python REST API).  
+- **Frontend** → Chrome Extension + Web Dashboard.  
+- **Database** → PostgreSQL / MongoDB.  
+- **AI Models**:  
+  - Fake News NLP (e.g., BERT/DistilBERT).  
+  - Deepfake Detection CNNs.  
+- **APIs**: Google Fact Check, NewsAPI, PolitiFact.  
+
+---
+
+## 8️⃣ Features (Detailed)
+- **Fake News Detection** – Text classification via NLP.  
+- **Deepfake Detection** – Frame-level video/image verification.  
+- **Credibility Report** – Breakdown of reliability score.  
+- **Browser Extension** – Inline detection for articles.  
+- **User Dashboard** – History of all checks.  
+
+---
+
+## 9️⃣ Future Enhancements
+- Real-time social feed scanning.  
+- Push notifications on suspicious news.  
+- Multilingual support.  
+- Blockchain-based source authentication.  
+- WhatsApp/Telegram bot integration.  
+
+---
+
+## 🔮 Conclusion
+This system empowers users to detect fake news and deepfakes effectively, helping reduce misinformation spread on social platforms.  
+
+---
+
+
+
 
 
 
