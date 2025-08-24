@@ -73,19 +73,7 @@ cd frontend
 npm install
 npm start
 
-📂 Project Structure
-FakeNews-Deepfake-Detection/
-│── backend/
-│   ├── app.py
-│   ├── models/
-│   ├── utils/
-│   └── database/
-│── frontend/
-│   ├── dashboard/
-│   └── extension/
-│── docs/
-│── requirements.txt
-│── README.md
+
 
 
 
