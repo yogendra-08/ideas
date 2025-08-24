@@ -85,7 +85,8 @@ FakeNews-Deepfake-Detection/
 │   └── extension/
 │── docs/
 │── requirements.txt
-│── README.md 
+│── README.md
+
 
 
 
