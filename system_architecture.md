@@ -60,3 +60,19 @@ flowchart TD
     F --> G
     G --> H[Database (History/Reports)]
     H --> I[Web Dashboard + Extension Output]
+
+# Clone repository
+git clone https://github.com/your-username/fake-news-detection.git
+cd fake-news-detection
+
+# Backend setup
+pip install -r requirements.txt
+python app.py
+
+# Frontend setup
+cd frontend
+npm install
+npm start
+
+
+
