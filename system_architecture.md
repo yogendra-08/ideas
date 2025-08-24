@@ -73,6 +73,20 @@ cd frontend
 npm install
 npm start
 
+📈 Use Cases
+
+Journalists verifying articles.
+
+Social media users checking before sharing.
+
+Educators teaching media literacy.
+
+NGOs & governments fighting misinformation.
+
+🤝 Contributors
+
+Your Name – Backend & AI Models
+
 
 
 
