@@ -48,7 +48,6 @@ Using **AI/ML models (NLP + CV)** and **fact-checking APIs**, the system generat
 ---
 
 ## 🏗️ System Architecture
-```mermaid
 flowchart TD
     A[User Input: Link/Text/Media] --> B[Frontend (Web/Extension)]
     B --> C[Backend API (Flask/FastAPI)]
@@ -73,6 +72,20 @@ python app.py
 cd frontend
 npm install
 npm start
+
+📂 Project Structure
+FakeNews-Deepfake-Detection/
+│── backend/
+│   ├── app.py
+│   ├── models/
+│   ├── utils/
+│   └── database/
+│── frontend/
+│   ├── dashboard/
+│   └── extension/
+│── docs/
+│── requirements.txt
+│── README.md 
 
 
 
